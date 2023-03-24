@@ -1,0 +1,74 @@
+.spe_container{
+    width: 80%;
+    margin: 10px auto;
+   }
+   .spe_main{
+    text-align: center;
+   }
+   .spe_para{
+    font-size: 54px;
+    line-height: 78px;
+    text-align: center;
+    color: #003B79;
+   }
+   .spe_para2{
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #003B79;
+   }
+   .sep_main_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+   }
+   .sep_main_img{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 4px 0px 68px -2px rgba(0,59,121,1);
+   }
+   .sep_img{
+    width: 100%;
+    height: 70%;
+   }
+   .sep_detail{
+    width: 100%;
+    height: 30%;
+    padding: 30px;
+   
+   }
+   .doctor_img{
+    width: 100%;
+    height: 100%;
+   }
+   .sep_head{
+ margin: 10px 30px;
+ font-size: 20px;
+   
+   }
+   .sep_p{
+    margin: 10px 30px;
+   
+   }
+   @media screen and (max-width: 800px) {
+    .sep_main_div{
+        flex-direction: column;
+        margin-top: 20px;
+    } 
+    .sep_main_img{
+        width: 90%;
+        margin-top: 50px;
+       }
+       .spe_para{
+        font-size: 24px;
+        line-height: 28px;
+       }
+       .spe_para2{
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 20px;
+       
+       }
+}

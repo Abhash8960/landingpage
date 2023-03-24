@@ -1,0 +1,156 @@
+.inno_container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.inno_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.inno_left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 400px;
+    margin-left: 30px;
+}
+
+.inno_right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 200px;
+    margin-left: 30px;
+    position: relative;
+}
+
+
+
+.inno_left_inno {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.inno-h1 {
+    font-size: 64px;
+    line-height: 78px;
+    color: #003B79;
+}
+
+.inno-h5 {
+    margin-top: 30px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #002348;
+
+}
+
+.inno-p {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 29px;
+    color: #002348;
+}
+
+.inno_img {
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+}
+.inno_para{
+    padding-top: 20px;
+}
+.doctor{
+    box-shadow: 10px 10px 76px -31px rgba(0,59,121,1);
+    position: absolute; 
+    padding: 30px;
+    top: 0; 
+    left: 0;
+}
+.emergency{
+    position: absolute;
+    right: 0;
+    box-shadow: 10px 10px 76px -31px rgba(0,59,121,1);
+    padding: 30px;
+}
+.ambulance{
+    box-shadow: 10px 10px 76px -31px rgba(0,59,121,1);
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    padding: 30px; 
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .inno_div {
+      flex-direction: column;
+    }
+    .inno_right {
+         width: 80%;
+       margin: 100px 0px;
+        position: static;
+    }
+  
+    .inno_img {
+        width: 100px;
+        height: 100px;
+        margin-top: -10px;
+    }
+    .inno_right_main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .doctor{
+        position: static;
+         
+    }
+    .emergency{
+        position: static; 
+      
+    }
+    .ambulance{
+        position: static;
+         
+    }
+    .inno-h1 {
+        font-size: 34px;
+    }
+    .inno-h5 {
+        font-size: 14px;
+   }
+    
+}
+@media screen and (max-width: 700px) {
+    .inno_right_main{
+      flex-direction: column;
+    }
+    .doctor{
+        margin-top: 130px;
+       
+         
+    }
+    .emergency{
+        margin-top: 130px;
+      
+    }
+    .ambulance{
+        margin-top: 130px;
+         
+    }
+    .inno_img {
+        width: 200px;
+        height: 200px;
+        margin-top: -150px;
+    }
+}

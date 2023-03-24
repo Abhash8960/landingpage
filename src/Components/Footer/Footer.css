@@ -1,0 +1,90 @@
+@import "../../Styles/global.css";
+
+.footer{
+    padding: 50px 0px;
+}
+.medi{
+    font-size: 43px;
+    line-height: 43px;
+    color: var(--primary-color);
+}
+.care{
+   
+    font-size: 43px;
+    line-height: 43px;
+    color: var(--secondary-color);
+}
+.footer_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.footer_left{
+    flex: 1;
+   
+}
+
+.footer_right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.footer_menu{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.icon-burger {
+    display: none;
+  
+}
+.line {
+    width: 30px;
+    height: 5px;
+    background-color:var(--primary-color);
+    margin: 5px;
+    border-radius: 3px;
+    transition: all .5s ease-in-out;
+}
+
+.footer_container{
+ width: 80%;
+ margin: 10px auto;
+}
+.footer_back {
+    background: #ECF4FF;
+    padding: 50px 0;
+}
+.footer_image {
+    width: 51px;
+    height: 51px;
+    padding-left: 5px;
+}
+
+.footer_para {
+ margin-top: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 34px;
+    color: #667C94;
+}
+@media screen and (max-width: 800px) {
+    .icon-burger {
+        display: block;
+      
+    }
+    .footer_menu{
+       display: none;
+    }
+    .medi{
+        font-size: 30px;
+       
+    }
+    .care{
+       font-size: 30px;
+    }
+}

@@ -1,0 +1,81 @@
+
+.custmor_container{
+    width: 80%;
+    margin: 10px auto;
+   }
+   .custmor_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.custmor_left{
+    flex :1;
+   padding: 60px;
+   margin-left: 10px;
+    box-shadow: 4px 0px 68px -2px rgba(0,59,121,1);
+    border-radius: 20px;
+   }
+   .custmor_right{
+    flex :1;
+    padding: 60px;
+    margin-left: 10px;
+    box-shadow: 4px 0px 68px -2px rgba(0,59,121,1);
+   
+   }
+   .custmor_head{
+    width: 80%;
+    margin: 80px auto;
+    font-size: 54px;
+    line-height: 78px;
+    color: #003B79;
+   }
+   .custmor_para {
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #002348;
+}
+.custmor_div{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.custmor_name_div{
+    margin-left: 20px;
+}
+.custmor_patient {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #002348;
+
+}
+.custmor_img {
+    height: 59px;
+    width: 59px;
+}
+.custmor_name {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #002348;
+
+}
+@media screen and (max-width: 800px) {
+    .custmor_main{
+   flex-direction: column;
+   } 
+    .custmor_left{
+        margin-bottom: 30px;
+      }
+      .custmor_head{
+        font-size: 34px;
+        line-height: 28px;
+       }
+}

@@ -6,5 +6,5 @@ module.exports = {
     title: `demo`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-vanilla-extract"]
+  plugins: ["gatsby-plugin-vanilla-extract",]
 };

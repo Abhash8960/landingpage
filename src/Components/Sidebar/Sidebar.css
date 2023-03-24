@@ -1,0 +1,11 @@
+.medi{
+    font-size: 43px;
+    line-height: 43px;
+    color: var(--primary-color);
+}
+.care{
+   
+    font-size: 43px;
+    line-height: 43px;
+    color: var(--secondary-color);
+}
